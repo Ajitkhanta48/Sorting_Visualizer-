@@ -1,0 +1,59 @@
+
+/* -------footr.css------- */
+footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* background-color: #b7b3c9; */
+    opacity: .7;
+    padding: 0.5%;
+    margin: 0.5%;
+
+  }
+
+  footer p {
+    font-size: var(--p);
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  span#currentYear{
+    font-weight: 600;
+  }
+  footer a {
+    color: whitesmoke;
+    font-size: var(--p);
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 600
+  }
+  
+  footer a:hover {
+    color: var(--hover01);
+    font-size: var(--hover01p);
+    text-decoration: underline;
+    font-weight: 500;
+  }
+@media screen and (min-width: 1200px) {
+footer p{
+font-size: 1.2rem;
+}
+footer a {
+font-size: 1.5rem;
+}
+footer a:hover {
+  font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 780px) {
+  footer a {
+    font-size: 1.2rem;
+    }
+}
