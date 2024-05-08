@@ -224,11 +224,12 @@
 
   ul {
     flex-direction: column;
-    height: 200px;
   }
-
-
-
+  #about ul li {
+    list-style-type: square;
+    font-size: 1.25rem;
+    margin: 0 0 0 5%;
+  }
   h1 {
     font-size: 1.802rem;
     font-weight: bold;
